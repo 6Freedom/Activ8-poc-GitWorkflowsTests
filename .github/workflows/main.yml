@@ -10,11 +10,13 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
     - name: Unity - Checkout
       uses: actions/checkout@v2
       
+    - name: Cache
+      uses: actions/cache@v2.1.2
+
     - name: Unity - Builder
       uses: webbertakken/unity-builder@v1.4
       with:
@@ -26,3 +28,21 @@ jobs:
       with:
         name: Build
         path: build
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Unity - Checkout
+      uses: actions/checkout@v2
+      
+    - name: Cache
+      uses: actions/cache@v2.1.2
+      
+    - name: Unity - Test runner
+      uses: webbertakken/unity-test-runner@v1.7
+      with:
+        unityVersion: 2019.3.15f1
+        
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Test results
+        path: artifacts
