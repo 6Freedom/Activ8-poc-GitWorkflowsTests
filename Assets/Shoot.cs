@@ -5,7 +5,16 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [SerializeField] private GameObject sphere;
+
+    public GameObject Sphere
+    {
+        get => sphere;
+        set => sphere = value;
+    }
+
     [SerializeField] private float shootForce = 2;
+    
+    
     
     void Update()
     {
