@@ -19,7 +19,7 @@ jobs:
       uses: webbertakken/unity-builder@v1.4
       with:
         unityVersion: 2019.3.15f1
-        targetPlatform: StandaloneWindows64
+        targetPlatform: StandaloneWindows
     
     - name: Publish artifact
       uses: actions/upload-artifact@v1
