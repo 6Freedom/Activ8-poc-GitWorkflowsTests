@@ -2,91 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/Global.Shoot.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/Global.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/PirateToolChest.ELanguage.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/PirateToolChest.LanguageManager.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/PirateToolChest.SCSVLine.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/PirateToolChest.SLocalizedText.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/api/PirateToolChest.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/Addressables.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/CI_Unity_MRTK.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/CIwithUnityorNetCoreApp.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/documentationtype.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/identificationSystem.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/localization.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/PoCAlgoRecherche.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://documentationtest.github.io/GithubCITest/manual/UnitTestForMRTK.html</loc>
-    <lastmod>2020-11-05T01:24:04+00:00</lastmod>
+    <lastmod>2020-11-05T01:30:59+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
