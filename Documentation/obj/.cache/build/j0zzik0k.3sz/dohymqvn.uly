@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
   
@@ -171,7 +171,7 @@
   </span>
   <a id="PirateToolChest_LanguageManager_ChangeLanguage_" data-uid="PirateToolChest.LanguageManager.ChangeLanguage*"></a>
   <h4 id="PirateToolChest_LanguageManager_ChangeLanguage_PirateToolChest_ELanguage_" data-uid="PirateToolChest.LanguageManager.ChangeLanguage(PirateToolChest.ELanguage)">ChangeLanguage(ELanguage)</h4>
-  <div class="markdown level1 summary"><p>Set current language to a specific language you want</p>
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Set current language to a specific language you want</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -204,7 +204,7 @@
   </span>
   <a id="PirateToolChest_LanguageManager_ChangeLanguage_" data-uid="PirateToolChest.LanguageManager.ChangeLanguage*"></a>
   <h4 id="PirateToolChest_LanguageManager_ChangeLanguage_System_String_" data-uid="PirateToolChest.LanguageManager.ChangeLanguage(System.String)">ChangeLanguage(String)</h4>
-  <div class="markdown level1 summary"><p>Set current language to a specific language you want</p>
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Set current language to a specific language you want</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -237,7 +237,7 @@
   </span>
   <a id="PirateToolChest_LanguageManager_GetTextById_" data-uid="PirateToolChest.LanguageManager.GetTextById*"></a>
   <h4 id="PirateToolChest_LanguageManager_GetTextById_System_String_" data-uid="PirateToolChest.LanguageManager.GetTextById(System.String)">GetTextById(String)</h4>
-  <div class="markdown level1 summary"><p>Search in the database the text you want in the current language.
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Search in the database the text you want in the current language.
 example : you want to get the translation of a specific sentence in the current language</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -258,7 +258,7 @@ example : you want to get the translation of a specific sentence in the current 
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">_id</span></td>
-        <td><p>The ID of the text you want</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The ID of the text you want</p>
 </td>
       </tr>
     </tbody>
@@ -274,7 +274,7 @@ example : you want to get the translation of a specific sentence in the current 
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>The text associated with the id in the current language</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The text associated with the id in the current language</p>
 </td>
       </tr>
     </tbody>
@@ -288,7 +288,7 @@ example : you want to get the translation of a specific sentence in the current 
   </span>
   <a id="PirateToolChest_LanguageManager_GetTMPByContent_" data-uid="PirateToolChest.LanguageManager.GetTMPByContent*"></a>
   <h4 id="PirateToolChest_LanguageManager_GetTMPByContent_System_String_" data-uid="PirateToolChest.LanguageManager.GetTMPByContent(System.String)">GetTMPByContent(String)</h4>
-  <div class="markdown level1 summary"><p>Search in the database the SLocalizedText you want in the current language.
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Search in the database the SLocalizedText you want in the current language.
 Example : you need a SLocalizedText from a TextMeshPro content to retrieve its ID</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -309,7 +309,7 @@ Example : you need a SLocalizedText from a TextMeshPro content to retrieve its I
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">_content</span></td>
-        <td><p>The text currently in the scene</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The text currently in the scene</p>
 </td>
       </tr>
     </tbody>
@@ -325,7 +325,7 @@ Example : you need a SLocalizedText from a TextMeshPro content to retrieve its I
     <tbody>
       <tr>
         <td><a class="xref" href="PirateToolChest.SLocalizedText.html">SLocalizedText</a></td>
-        <td><p>The SLocalizedText associated with the text currently in the scene, in the current language</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The SLocalizedText associated with the text currently in the scene, in the current language</p>
 </td>
       </tr>
     </tbody>
@@ -339,7 +339,7 @@ Example : you need a SLocalizedText from a TextMeshPro content to retrieve its I
   </span>
   <a id="PirateToolChest_LanguageManager_GetTranslation_" data-uid="PirateToolChest.LanguageManager.GetTranslation*"></a>
   <h4 id="PirateToolChest_LanguageManager_GetTranslation_System_String_PirateToolChest_ELanguage_" data-uid="PirateToolChest.LanguageManager.GetTranslation(System.String,PirateToolChest.ELanguage)">GetTranslation(String, ELanguage)</h4>
-  <div class="markdown level1 summary"><p>Search in the CSV the translation of a certain text. Do not really translate of course.
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="3">Search in the CSV the translation of a certain text. Do not really translate of course.
 Example : you have a text in english and you want the translation of this text in french.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -360,13 +360,13 @@ Example : you have a text in english and you want the translation of this text i
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">_text</span></td>
-        <td><p>The source text</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The source text</p>
 </td>
       </tr>
       <tr>
         <td><a class="xref" href="PirateToolChest.ELanguage.html">ELanguage</a></td>
         <td><span class="parametername">_lang</span></td>
-        <td><p>The language you want the new text in</p>
+        <td><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="1" sourceendlinenumber="1">The language you want the new text in</p>
 </td>
       </tr>
     </tbody>
@@ -395,7 +395,7 @@ Example : you have a text in english and you want the translation of this text i
   </span>
   <a id="PirateToolChest_LanguageManager_SwitchLanguage_" data-uid="PirateToolChest.LanguageManager.SwitchLanguage*"></a>
   <h4 id="PirateToolChest_LanguageManager_SwitchLanguage" data-uid="PirateToolChest.LanguageManager.SwitchLanguage">SwitchLanguage()</h4>
-  <div class="markdown level1 summary"><p>Switch from EN to FR and from FR to EN</p>
+  <div class="markdown level1 summary"><p sourcefile="api/PirateToolChest.LanguageManager.yml" sourcestartlinenumber="2" sourceendlinenumber="2">Switch from EN to FR and from FR to EN</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

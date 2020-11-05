@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Shoot.html",
-          "hash": "XETYBgRe8RkFtKdiJWqAKw=="
+          "hash": "BopDkDwtfmyvLGiz4KSgYA=="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.LanguageManager.html",
-          "hash": "7tQKw/hif6IuEEoeTTR54w=="
+          "hash": "znSECndPFl961Rf43yjAcg=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "uB6rt2tnuk1sjFmfJsf53A=="
+          "hash": "zUdRSwAxWGxZil4SCjPn7g=="
         }
       },
       "is_incremental": false,
@@ -242,23 +242,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 8,
-          "skipped_file_count": 7
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 7
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
