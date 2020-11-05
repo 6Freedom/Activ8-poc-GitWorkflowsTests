@@ -60,6 +60,18 @@
   <ItemGroup>
      <Compile Include="Assets\Tests\BasicTests.cs" />
      <None Include="Assets\Tests\Tests.asmdef" />
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.TestRunner">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/UnityEditor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -587,25 +599,9 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{3ABA1CF9-97F6-D0A8-42A4-A980644017CF}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{082ABA7B-5D7E-2E1B-8D9C-14A0F4935B64}</Project>
-      <Name>UnityEditor.TestRunner</Name>
-    </ProjectReference>
     <ProjectReference Include="Script.csproj">
       <Project>{DE3560FF-3D5B-DD1E-CBD0-EB8B22F541D4}</Project>
       <Name>Script</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{4A7D0AB6-B25F-95EC-16E1-DE4D58314CB5}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{6DB2C1DD-0FE1-55AC-1A81-CB0302C69882}</Project>
-      <Name>UnityEngine.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

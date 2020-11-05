@@ -61,6 +61,15 @@
      <Compile Include="Assets\Scripts\LanguageManager.cs" />
      <Compile Include="Assets\Scripts\Shoot.cs" />
      <None Include="Assets\Scripts\Script.asmdef" />
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>G:/6Freedom/GithubCITest/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/UnityEditor/2019.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
@@ -601,20 +610,6 @@
  <Reference Include="System.Xml.Serialization">
  <HintPath>C:/Program Files/UnityEditor/2019.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{D2A8233C-845D-CA8E-5BFD-7FCF798A3B66}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{4A7D0AB6-B25F-95EC-16E1-DE4D58314CB5}</Project>
-      <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{6DB2C1DD-0FE1-55AC-1A81-CB0302C69882}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
