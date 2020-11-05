@@ -7,7 +7,7 @@
   "api/Global.Shoot.html": {
     "href": "api/Global.Shoot.html",
     "title": "Class Shoot | GithubCITest Unity documentation",
-    "keywords": "Class Shoot Inheritance Object Object Component Behaviour MonoBehaviour Shoot Namespace : Global Assembly : Script.dll Syntax public class Shoot : MonoBehaviour Properties | Improve this Doc View Source Sphere Declaration public GameObject Sphere { get; set; } Property Value Type Description GameObject"
+    "keywords": "Class Shoot Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour Shoot Namespace : Global Assembly : Script.dll Syntax public class Shoot : MonoBehaviour Properties | Improve this Doc View Source Sphere Declaration public GameObject Sphere { get; set; } Property Value Type Description UnityEngine.GameObject"
   },
   "manual/Addressables.html": {
     "href": "manual/Addressables.html",
