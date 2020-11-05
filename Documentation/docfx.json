@@ -46,13 +46,7 @@
         ],
         "sitemap":
         {
-            "baseUrl": "https://documentationtest.github.io/GithubCITest",
-            "changefreq": "weekly",
-            "fileOptions": {
-                "api/*": {
-                    "changefreq": "daily"
-                }
-            }
+            "baseUrl": "https://cleryja.github.io/GithubCITest"
         },
         "template": [
             "default",

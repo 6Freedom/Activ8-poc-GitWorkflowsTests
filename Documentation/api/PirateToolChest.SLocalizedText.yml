@@ -185,17 +185,20 @@ references:
 - uid: TMPro.TMP_Text
   commentId: T:TMPro.TMP_Text
   parent: TMPro
+  isExternal: true
   name: TMP_Text
   nameWithType: TMP_Text
   fullName: TMPro.TMP_Text
 - uid: TMPro
   commentId: N:TMPro
+  isExternal: true
   name: TMPro
   nameWithType: TMPro
   fullName: TMPro
 - uid: TMPro.TMP_FontAsset
   commentId: T:TMPro.TMP_FontAsset
   parent: TMPro
+  isExternal: true
   name: TMP_FontAsset
   nameWithType: TMP_FontAsset
   fullName: TMPro.TMP_FontAsset
