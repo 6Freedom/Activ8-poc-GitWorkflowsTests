@@ -34,6 +34,11 @@
     "title": "Struct SLocalizedText | GithubCITest Unity documentation",
     "keywords": "Struct SLocalizedText Namespace : PirateToolChest Assembly : Script.dll Syntax [Serializable] public struct SLocalizedText Constructors | Improve this Doc View Source SLocalizedText(TMP_Text, String, TMP_FontAsset) Declaration public SLocalizedText(TMP_Text _tmp, string _id, TMP_FontAsset _originalFont) Parameters Type Name Description TMP_Text _tmp String _id TMP_FontAsset _originalFont Fields | Improve this Doc View Source ID Declaration public string ID Field Value Type Description String | Improve this Doc View Source originalFont Declaration public TMP_FontAsset originalFont Field Value Type Description TMP_FontAsset | Improve this Doc View Source TMP Declaration public TMP_Text TMP Field Value Type Description TMP_Text"
   },
+  "index.html": {
+    "href": "index.html",
+    "title": "GithubCITest | GithubCITest Unity documentation",
+    "keywords": "GithubCITest"
+  },
   "manual/Addressables.html": {
     "href": "manual/Addressables.html",
     "title": "Table of content | GithubCITest Unity documentation",
