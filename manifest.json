@@ -10,7 +10,7 @@
     "changefreq": "weekly"
   },
   "homepages": [],
-  "source_base_path": "G:/6Freedom/GithubCITest/Documentation",
+  "source_base_path": "D:/a/GithubCITest/GithubCITest/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Shoot.html",
-          "hash": "BopDkDwtfmyvLGiz4KSgYA=="
+          "hash": "XgWvhGx1yZy1P64ccrtOQg=="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.LanguageManager.html",
-          "hash": "znSECndPFl961Rf43yjAcg=="
+          "hash": "RJDXV7M3QMAmz1fI2T8pPw=="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.SLocalizedText.html",
-          "hash": "XEJaVEiLR+NGFflRZLW6yg=="
+          "hash": "Hd/fExrPp6YXRWSbUwKscQ=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "zUdRSwAxWGxZil4SCjPn7g=="
+          "hash": "DxMF5mtPQxTqxAopvIxbIA=="
         }
       },
       "is_incremental": false,
@@ -242,25 +242,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 8,
-          "skipped_file_count": 0
+          "skipped_file_count": 8
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

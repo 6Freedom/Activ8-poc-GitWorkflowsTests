@@ -193,11 +193,11 @@ references:
   commentId: T:PirateToolChest.SLocalizedText
   fullName: PirateToolChest.SLocalizedText
   nameWithType: SLocalizedText
-- uid: PirateToolChest.SLocalizedText.#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)
+- uid: PirateToolChest.SLocalizedText.#ctor(TMP_Text,System.String,TMP_FontAsset)
   name: SLocalizedText(TMP_Text, String, TMP_FontAsset)
-  href: api/PirateToolChest.SLocalizedText.html#PirateToolChest_SLocalizedText__ctor_TMPro_TMP_Text_System_String_TMPro_TMP_FontAsset_
-  commentId: M:PirateToolChest.SLocalizedText.#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)
-  fullName: PirateToolChest.SLocalizedText.SLocalizedText(TMPro.TMP_Text, System.String, TMPro.TMP_FontAsset)
+  href: api/PirateToolChest.SLocalizedText.html#PirateToolChest_SLocalizedText__ctor_TMP_Text_System_String_TMP_FontAsset_
+  commentId: M:PirateToolChest.SLocalizedText.#ctor(TMP_Text,System.String,TMP_FontAsset)
+  fullName: PirateToolChest.SLocalizedText.SLocalizedText(TMP_Text, System.String, TMP_FontAsset)
   nameWithType: SLocalizedText.SLocalizedText(TMP_Text, String, TMP_FontAsset)
 - uid: PirateToolChest.SLocalizedText.#ctor*
   name: SLocalizedText
