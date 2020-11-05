@@ -1,0 +1,24 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.Shoot
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  type: Namespace
+  assemblies:
+  - Script
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Global.Shoot
+  commentId: T:Global.Shoot
+  name: Shoot
+  nameWithType: Shoot
+  fullName: Shoot

@@ -1,0 +1,145 @@
+\hypertarget{class_pirate_tool_chest_1_1_language_manager}{}\doxysection{Pirate\+Tool\+Chest.\+Language\+Manager Class Reference}
+\label{class_pirate_tool_chest_1_1_language_manager}\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+Inheritance diagram for Pirate\+Tool\+Chest.\+Language\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_pirate_tool_chest_1_1_language_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_a63ebd0dbb8dfb0babbc9426be0e13bdf}{Switch\+Language}} ()
+\begin{DoxyCompactList}\small\item\em Switch from EN to FR and from FR to EN \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_a02b179ba1c45c6102ec5ddd1b19173c0}{Change\+Language}} (string new\+Language)
+\begin{DoxyCompactList}\small\item\em Set current language to a specific language you want \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_a68c99a551c30b6a5b2c76470bbd863a4}{Change\+Language}} (E\+Language new\+Language)
+\begin{DoxyCompactList}\small\item\em Set current language to a specific language you want \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_a8c2a696da40f4a0b080089f0756b6dfa}{Get\+Text\+By\+Id}} (string \+\_\+id)
+\begin{DoxyCompactList}\small\item\em Search in the database the text you want in the current language. example \+: you want to get the translation of a specific sentence in the current language \end{DoxyCompactList}\item 
+\mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_aed78449f9c96e9ed38415545d082fcca}{Get\+T\+M\+P\+By\+Content}} (string \+\_\+content)
+\begin{DoxyCompactList}\small\item\em Search in the database the \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} you want in the current language. Example \+: you need a \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} from a Text\+Mesh\+Pro content to retrieve its ID \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager_ae685abf342cc7862dd992d5e3208cb82}{Get\+Translation}} (string \+\_\+text, E\+Language \+\_\+lang)
+\begin{DoxyCompactList}\small\item\em Search in the C\+SV the translation of a certain text. Do not really translate of course. Example \+: you have a text in english and you want the translation of this text in french. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a9f02ba602726e72d7e64c9a49aaa43c1}\label{class_pirate_tool_chest_1_1_language_manager_a9f02ba602726e72d7e64c9a49aaa43c1}} 
+E\+Language {\bfseries current\+Language}
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a74d191855525a5047840ae634d169c75}\label{class_pirate_tool_chest_1_1_language_manager_a74d191855525a5047840ae634d169c75}} 
+static \mbox{\hyperlink{class_pirate_tool_chest_1_1_language_manager}{Language\+Manager}} {\bfseries Instance}
+\end{DoxyCompactItemize}
+\doxysubsection*{Events}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a533fad8f9cc1f5ca7cd3b9c97d2e7004}\label{class_pirate_tool_chest_1_1_language_manager_a533fad8f9cc1f5ca7cd3b9c97d2e7004}} 
+static Action$<$ E\+Language $>$ {\bfseries On\+Language\+Changed}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a68c99a551c30b6a5b2c76470bbd863a4}\label{class_pirate_tool_chest_1_1_language_manager_a68c99a551c30b6a5b2c76470bbd863a4}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!ChangeLanguage@{ChangeLanguage}}
+\index{ChangeLanguage@{ChangeLanguage}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{ChangeLanguage()}{ChangeLanguage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Pirate\+Tool\+Chest.\+Language\+Manager.\+Change\+Language (\begin{DoxyParamCaption}\item[{E\+Language}]{new\+Language }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set current language to a specific language you want 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Language} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a02b179ba1c45c6102ec5ddd1b19173c0}\label{class_pirate_tool_chest_1_1_language_manager_a02b179ba1c45c6102ec5ddd1b19173c0}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!ChangeLanguage@{ChangeLanguage}}
+\index{ChangeLanguage@{ChangeLanguage}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{ChangeLanguage()}{ChangeLanguage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void Pirate\+Tool\+Chest.\+Language\+Manager.\+Change\+Language (\begin{DoxyParamCaption}\item[{string}]{new\+Language }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Set current language to a specific language you want 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Language} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a8c2a696da40f4a0b080089f0756b6dfa}\label{class_pirate_tool_chest_1_1_language_manager_a8c2a696da40f4a0b080089f0756b6dfa}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!GetTextById@{GetTextById}}
+\index{GetTextById@{GetTextById}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{GetTextById()}{GetTextById()}}
+{\footnotesize\ttfamily string Pirate\+Tool\+Chest.\+Language\+Manager.\+Get\+Text\+By\+Id (\begin{DoxyParamCaption}\item[{string}]{\+\_\+id }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Search in the database the text you want in the current language. example \+: you want to get the translation of a specific sentence in the current language 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+id} & The ID of the text you want\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The text associated with the id in the current language
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_aed78449f9c96e9ed38415545d082fcca}\label{class_pirate_tool_chest_1_1_language_manager_aed78449f9c96e9ed38415545d082fcca}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!GetTMPByContent@{GetTMPByContent}}
+\index{GetTMPByContent@{GetTMPByContent}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{GetTMPByContent()}{GetTMPByContent()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} Pirate\+Tool\+Chest.\+Language\+Manager.\+Get\+T\+M\+P\+By\+Content (\begin{DoxyParamCaption}\item[{string}]{\+\_\+content }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Search in the database the \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} you want in the current language. Example \+: you need a \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} from a Text\+Mesh\+Pro content to retrieve its ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+content} & The text currently in the scene\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The \mbox{\hyperlink{struct_pirate_tool_chest_1_1_s_localized_text}{S\+Localized\+Text}} associated with the text currently in the scene, in the current language
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_ae685abf342cc7862dd992d5e3208cb82}\label{class_pirate_tool_chest_1_1_language_manager_ae685abf342cc7862dd992d5e3208cb82}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!GetTranslation@{GetTranslation}}
+\index{GetTranslation@{GetTranslation}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{GetTranslation()}{GetTranslation()}}
+{\footnotesize\ttfamily string Pirate\+Tool\+Chest.\+Language\+Manager.\+Get\+Translation (\begin{DoxyParamCaption}\item[{string}]{\+\_\+text,  }\item[{E\+Language}]{\+\_\+lang }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Search in the C\+SV the translation of a certain text. Do not really translate of course. Example \+: you have a text in english and you want the translation of this text in french. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \+\_\+text} & The source text\\
+\hline
+{\em \+\_\+lang} & The language you want the new text in\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_pirate_tool_chest_1_1_language_manager_a63ebd0dbb8dfb0babbc9426be0e13bdf}\label{class_pirate_tool_chest_1_1_language_manager_a63ebd0dbb8dfb0babbc9426be0e13bdf}} 
+\index{PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}!SwitchLanguage@{SwitchLanguage}}
+\index{SwitchLanguage@{SwitchLanguage}!PirateToolChest.LanguageManager@{PirateToolChest.LanguageManager}}
+\doxysubsubsection{\texorpdfstring{SwitchLanguage()}{SwitchLanguage()}}
+{\footnotesize\ttfamily void Pirate\+Tool\+Chest.\+Language\+Manager.\+Switch\+Language (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Switch from EN to FR and from FR to EN 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+G\+:/6\+Freedom/\+Github\+C\+I\+Test/\+Assets/Language\+Manager.\+cs\end{DoxyCompactItemize}

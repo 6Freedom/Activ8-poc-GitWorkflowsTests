@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Table of content | GithubCITest Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Table of content | GithubCITest Unity documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="table-of-content">Table of content</h2>
+
+<ul>
+<li><a href="#contexte">Contexte</a><ul>
+<li><a href="#nota-bene">Nota Bene</a></li>
+</ul>
+</li>
+<li><a href="#réalisation-dun-proof-of-concept-addressables">Réalisation d&#39;un proof of concept addressables</a><ul>
+<li><a href="#création-de-la-scène">Création de la scène</a></li>
+<li><a href="#test-de-la-scène">Test de la scène</a></li>
+<li><a href="#instanciation-et-nouveaux-scripts">Instanciation et nouveaux scripts</a></li>
+</ul>
+</li>
+<li><a href="#paramétrage-des-addressables">Paramétrage des Addressables</a></li>
+<li><a href="#conclusions">Conclusions</a></li>
+<li><a href="#liens-utiles">Liens utiles</a></li>
+</ul>
+<h1 id="contexte">Contexte</h1>
+<p>Le but des addressables est de pouvoir lié des assets d&#39;un projet unity à une adresse.<br>Exemple :</p>
+<ul>
+<li>Vous faite un projet Unity</li>
+<li>Au démarrage votre scène ne contient qu&#39;une camera et une light</li>
+<li>Vous faite un prefab qui contient un cube <em>cube.prefab</em></li>
+<li>Ensuite vous écrivez un script <em>CubeGenerator.cs</em></li>
+<li>Vous posez le script sur un gameobject</li>
+<li>Ce script contient une variable de type <strong>GameObject</strong> <em>myPrefab</em> qui est visible dans l&#39;inspector</li>
+<li>Le script instancie le cube au <em>Start()</em> au centre du monde</li>
+<li>Vous revenez dans l&#39;éditeur, drag&amp;droppez le prefab dans l&#39;inspector pour donner la référence au script</li>
+<li>Vous buildez</li>
+</ul>
+<p>Pour ce projet, votre build va contenir (pour simplifier) 3 assets : la scène, le script et le prefab.</p>
+<p>Avec les addressables voici ce qui se passe :</p>
+<ul>
+<li>Vous faite un projet Unity</li>
+<li>Au démarrage votre scène ne contient qu&#39;une camera et une light</li>
+<li>Vous faite un prefab qui contient un cube <em>cube.prefab</em></li>
+<li>Ensuite vous écrivez un script <em>CubeGenerator.cs</em></li>
+<li>Vous posez le script sur un gameobject</li>
+<li>Ce script contient une variable de type AddressableAsset <em>myPrefabAddressable</em> qui est visible dans l&#39;inspector</li>
+<li>Ce script load l&#39;asset via <em>myPrefabAddressable</em> </li>
+<li>Une fois l&#39;objet loadé, le script converti l&#39;asset en prefab puis instancie le prefab au centre du monde</li>
+<li>Vous revenez dans l&#39;éditeur, vous aller voir l&#39;inspector du script et vous aller pouvoir choisir l&#39;addressable du prefab</li>
+<li>Ensuite vous spécifiez dans les paramètre du projet où seront stocké les addressables (par exemple <a href="https://6freedom.studio/addressables/projetTest">https://6freedom.studio/addressables/projetTest</a>)</li>
+<li>Ensuite vous faite une build des addressable dans la fenêtre associé</li>
+<li>Ensuite vous faite une build de votre projet Unity</li>
+</ul>
+<p>Pour ce projet, votre build va contenir (pour simplifier) que 2 assets : la scène et le script. Le prefab sera téléchargé au moment où le script va le load.  </p>
+<h2 id="nota-bene">Nota Bene</h2>
+<ul>
+<li>Si l&#39;utilisateur n&#39;est pas connecté à internet, il faut prévoir un message d&#39;erreur</li>
+<li>Si l&#39;utilisateur a téléchargé un addressable une première fois, il est stocké dans le disque dur et n&#39;a plus besoin d&#39;internet</li>
+<li>Il est possible de load tous les assets au démarrage de l&#39;application et rajouter une barre de chargement. C&#39;est potentiellement plus pratique pour les utilisateurs</li>
+<li>Les addressables ont une date. Ce qui permet de vérifier si il existe une mise à jour de ces assets</li>
+<li>A chaque fois que l&#39;équipe de développement veux mettre à jour les assets, il faut refaire une build des addressables puis les déposer sur le stockage</li>
+<li>Il est possible de choisir entre packager tous les assets dans un seul gros fichier, ou d&#39;avoir plusieurs petits fichiers</li>
+</ul>
+<h1 id="réalisation-dun-proof-of-concept-addressables">Réalisation d&#39;un proof of concept addressables</h1>
+<ul>
+<li>Utilisation d&#39;un serveur Azure Blob storage <a href="https://6freedomstorage.blob.core.windows.net/addressables/logo-6freedom-RVB.png">fichier d&#39;exemple stocker sur ce serveur</a></li>
+<li>Objectif : <ul>
+<li>Réussir à mettre à jour des scripts, des scènes, des prefabs, des textures, des matérials, des sons</li>
+<li>Réussir à créer de nouveau comportement qui n&#39;était pas prévu par le logiciel de base</li>
+<li>Tester la différence entre &quot;un chargement complet au démarrage&quot; et &quot;charger les fichiers un par un&quot;</li>
+</ul>
+</li>
+</ul>
+<p>D&#39;abord il faut installer le package Addressables. Voici le lien vers la documentation : <a href="https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html">https://docs.unity3d.com/Packages/com.unity.addressables@1.8/manual/index.html</a></p>
+<p><img src="https://i.imgur.com/QAgsyvm.png" alt="Package"></p>
+<h2 id="création-de-la-scène">Création de la scène</h2>
+<p>Premièrement j&#39;ai créer une scene vide nommé <em>Loader</em> qui contient un seul script <em>Loader.cs</em>. Le but est que ce script charge la scene <em>MainMenu</em> qui elle est un Addressable.</p>
+<p><img src="https://i.imgur.com/c1DLVvw.png" alt="MainMenuAddressable"></p>
+<p> Première remarque : une scène Addressable ne peux pas être dans le build settings. Donc on ne peux pas loader la scène par son <em>buildIndex</em>. Secondement, pour charger un asset il faut faire </p>
+<p><code>Addressables.LoadAssetAsync&lt;GameObject&gt;(monPrefab).Completed += OnLoadDone;</code></p>
+<p>mais pour les scènes il faut faire</p>
+<p><code>Addressables.LoadSceneAsync(mainMenuScene).Completed += Loader_Completed;</code></p>
+<p>Donc mon Loader ressemble à ça :</p>
+<pre><code class="lang-csharp">public class Loader : MonoBehaviour
+{
+    public AssetReference mainMenuScene;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        Addressables.LoadSceneAsync(mainMenuScene).Completed += OnLoadDone;
+    }
+
+    private void OnLoadDone(AsyncOperationHandle&lt;SceneInstance&gt; obj)
+    {
+        if (obj.Status == AsyncOperationStatus.Succeeded)
+        {
+            Debug.Log($&quot;Scene{obj.Result.Scene.name} successfully loaded&quot;);
+        }
+        else
+        {
+            Debug.LogError(&quot;You don&#39;t have access to the internet or something&quot;);
+        }
+    }
+}
+</code></pre><p>Dans la scène <em>MainMenu</em> j&#39;ai rajouté un bouton dans un canvas et un objet 3D. Ni le bouton, ni l&#39;objet 3D ne sont taggé comme Addressables. Ils sont déjà dans une scène Addressable, donc pas besoin de cocher Addressables pour ces assets.
+<img src="https://i.imgur.com/e7oSYJy.png" alt="Vue Scene"></p>
+<hr>
+<h2 id="test-de-la-scène">Test de la scène</h2>
+<p>Pour tester cette scène, j&#39;ai fait une <em>New Build</em> des Addressables. J&#39;ai mis seulement la scène Loader dans les build settings puis j&#39;ai fait une build Windows Standalone.</p>
+<p>Je me retrouve donc, dans un dossier <em>ServerData/</em> avec les addressables buildé et dans un dossier <em>/Build</em> la build WindowsStandalone.</p>
+<p><img src="https://i.imgur.com/fmJ0qLf.png" alt="Builds Folder"></p>
+<p>Ensuite je copie ce qui se trouve dans le dossier ServerData sur le serveur de stockage.</p>
+<p><img src="https://i.imgur.com/2lLTVB3.png" alt="Copy to server"></p>
+<p>Ensuite je lance l&#39;application et je vois bien l&#39;objet 3D et le bouton.</p>
+<p>Ensuite j&#39;ai rouvert Unity, j&#39;ai changé le bouton de couleur et j&#39;ai mis un autre asset 3D. Ensuite j&#39;ai fait une mise à jour des Addressables (<em>Update Previous Build</em>). Puis j&#39;ai recopier sur le serveur de stockage</p>
+<p>Puis j&#39;ai relancer l&#39;application <strong>(sans nouvelle build Unity)</strong> et j&#39;ai le nouveau bouton et le nouvel objet 3D.</p>
+<p><img src="https://i.imgur.com/DVeQL8O.png" alt="Updated scene"></p>
+<h2 id="instanciation-et-nouveaux-scripts">Instanciation et nouveaux scripts</h2>
+<p>J&#39;ai rajouté un script qui permet, lors de l&#39;appui sur le bouton <em>Spawn some snow</em> d&#39;instancier un prefab avec un <em>particle system</em>. Ce bouton fonctionne très bien dans l&#39;éditeur mais ne fonctionne pas du tout dans la build. </p>
+<p><img src="https://i.imgur.com/DmD0g54.png" alt="Spawner"></p>
+<p><strong>Pourquoi ?</strong></p>
+<p>En ouvrant les logs de l&#39;application, voici ce que l&#39;on peux voir :</p>
+<p><img src="https://i.imgur.com/BTXld3V.png" alt="Error"></p>
+<p>Car selon la <a href="https://docs.unity3d.com/Packages/com.unity.addressables@1.16/manual/ContentUpdateWorkflow.html#project-structure">documentation officiel</a> :</p>
+<blockquote><p>Addressables can only distribute content, not code. As such, a code change generally necessitates a fresh player build, and often a fresh build of content</p>
+</blockquote>
+<p>La raison c&#39;est que les scripts doivent être compilés. Or il n&#39;y a pas de compilateur dans l&#39;application en elle même et les scripts ne sont pas compilés au moment de buildé les Addressables.</p>
+<h1 id="paramétrage-des-addressables">Paramétrage des Addressables</h1>
+<p>Dans les paramètres de profiles des addressables j&#39;ai rajouté un profil nommé 6freedom (1) puis j&#39;ai rajouté deux variables (4) et (5). Ensuite j&#39;ai choisi que les addressables seraient buildé dans un dossier sur mon disque dur (2). Et que le logiciel ira les loader depuis le serveur azure.</p>
+<p><img src="https://i.imgur.com/fcpGSNn.png" alt="Profiles Parameters"></p>
+<p>Dans le <em>Default Local Group</em> j&#39;ai mis <em>Build Path</em> en <em>RemoteBuildPath</em> et le <em>Load Path</em> en <em>RemoteLoadPath</em> pour que, par défaut, ça charge les assets depuis le serveur. Le paramètre <em>Bundle Mode</em> permet de choisir si on construit un seul gros fichier <em>.bundle</em> ou un fichier par asset ou un fichier par label prédéfinis à l&#39;avance.</p>
+<p><img src="https://i.imgur.com/yvkbmUB.png" alt="Default Local Group"></p>
+<p>Dans <em>AddressableAssetSettings</em> j&#39;ai aussi mis les <em>Build Path</em> et les <em>Load Path</em> en <em>Remote</em>. En plus j&#39;ai coché <em>Build Remote Path</em></p>
+<p><img src="https://i.imgur.com/OVQf4qj.png" alt="AdressableAssetSettings"></p>
+<p>Dans la fenêtre <em>Groups</em> je n&#39;ai ajouté que la scene <em>MainMenu</em></p>
+<p>Lors de la build des addressables il faut <strong>faire attention</strong> car il y a deux façons.</p>
+<ul>
+<li><p><strong>(1) Faire une nouvelle version</strong> : créer un catalogue avec une date précise. A faire avant de faire un nouveau build du logiciel avec Unity
+<img src="https://i.imgur.com/URMjCJO.png" alt="New Build"></p>
+</li>
+<li><p><strong>(2) Mettre à jour une version</strong> : modifie le dernier catalogue en date. A faire quand on veux mettre à jour les fichiers sur le serveur de stockage.
+<img src="https://i.imgur.com/fQGSFTo.png" alt="Update Previous Build"></p>
+</li>
+</ul>
+<h1 id="conclusions">Conclusions</h1>
+<ol>
+<li>Il est possible de à mettre à jour des assets mais pas des scripts.</li>
+<li>Si on veux mettre à jour des scripts il faut refaire une build et livrer cette build aux utilisateurs.</li>
+<li>Il est donc impossible de créer de nouveau comportement qui n&#39;était pas prévu par le logiciel de base par une simple mise à jour des Addressables sur le serveur.</li>
+<li>Il n&#39;y a pas besoin de mettre en Addressables les assets qui sont référencé par les gameobjects d&#39;une scène si celle ci est en Addressable.</li>
+</ol>
+<h1 id="liens-utiles">Liens utiles</h1>
+<ul>
+<li><a href="https://thegamedev.guru/unity-addressables/benefits-for-your-game/">Blog post about Addressables</a></li>
+<li><a href="https://docs.unity3d.com/Packages/com.unity.addressables@1.16/manual/">Official Documentation</a></li>
+<li><a href="https://www.youtube.com/watch?v=KJbNsaj1c1o">Tutorial how to build from remote path</a></li>
+<li><a href="https://learn.unity.com/tutorial/addressables-scene-loading">Load scene with addressables tutorial</a></li>
+<li><a href="https://learn.unity.com/course/asset-management-with-addressables-toolkit-2019-3">More tutorials</a></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/CleryJa/GithubCITest/blob/main/Documentation/manual/Addressables.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            GithubCITest Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
