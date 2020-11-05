@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://documentationtest.github.io/GithubCITest/",
         "changefreq": "daily"
       }
     },
@@ -20,6 +21,102 @@
         }
       },
       "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Shoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Shoot.html",
+          "hash": "XETYBgRe8RkFtKdiJWqAKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html",
+          "hash": "nIZfx8VIr9rjIJHHNAXg7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PirateToolChest.ELanguage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PirateToolChest.ELanguage.html",
+          "hash": "lvh/K3Ps+UWg2Z58XWcLgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PirateToolChest.LanguageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PirateToolChest.LanguageManager.html",
+          "hash": "7tQKw/hif6IuEEoeTTR54w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PirateToolChest.SCSVLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PirateToolChest.SCSVLine.html",
+          "hash": "galcCqUeubCvF+q9/rHIYQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PirateToolChest.SLocalizedText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PirateToolChest.SLocalizedText.html",
+          "hash": "XEJaVEiLR+NGFflRZLW6yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/PirateToolChest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/PirateToolChest.html",
+          "hash": "/Rw8WQSjyKP18lHWg9F4Dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "HLUh64Dy5YeAZAj3aEV9Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     },
     {
       "type": "Conceptual",
@@ -83,6 +180,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/documentationtype.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/documentationtype.html",
+          "hash": "SLOEY0ZoZL3uYMkF2DUPfw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/identificationSystem.md",
       "output": {
         ".html": {
@@ -123,7 +232,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "C5PXbG6crcaY0etU9tUjJw=="
+          "hash": "jvAbwwolYrnX151AR7E4RA=="
         }
       },
       "is_incremental": false,
@@ -140,6 +249,12 @@
       },
       "processors": {
         "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 8,
+          "skipped_file_count": 7
+        },
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 7,
