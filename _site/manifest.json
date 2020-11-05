@@ -2,7 +2,6 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
-        "baseUrl": "https://documentationtest.github.io/GithubCITest/",
         "changefreq": "daily"
       }
     },
@@ -21,42 +20,6 @@
         }
       },
       "is_incremental": false
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.Shoot.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.Shoot.html",
-          "hash": "XETYBgRe8RkFtKdiJWqAKw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.html",
-          "hash": "nIZfx8VIr9rjIJHHNAXg7g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "api/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/toc.html",
-          "hash": "31PqUdv2TsZK9+LjBZ1qEQ=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
     },
     {
       "type": "Conceptual",
@@ -155,34 +118,12 @@
       "version": ""
     },
     {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "jvAbwwolYrnX151AR7E4RA=="
+          "hash": "C5PXbG6crcaY0etU9tUjJw=="
         }
       },
       "is_incremental": false,
@@ -203,19 +144,6 @@
           "incrementalPhase": "build",
           "total_file_count": 7,
           "skipped_file_count": 7
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 2,
-          "skipped_file_count": 2
-        },
-        "ResourceDocumentProcessor": {
-          "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build",
-          "total_file_count": 0,
-          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

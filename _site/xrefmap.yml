@@ -1,30 +1,3 @@
 ### YamlMime:XRefMap
 sorted: true
-references:
-- uid: Global
-  name: Global
-  href: api/Global.html
-  name.vb: ''
-  fullName: Global
-  fullName.vb: ''
-  nameWithType: Global
-  nameWithType.vb: ''
-- uid: Global.Shoot
-  name: Shoot
-  href: api/Global.Shoot.html
-  commentId: T:Global.Shoot
-  fullName: Shoot
-  nameWithType: Shoot
-- uid: Global.Shoot.Sphere
-  name: Sphere
-  href: api/Global.Shoot.html#Global_Shoot_Sphere
-  commentId: P:Global.Shoot.Sphere
-  fullName: Shoot.Sphere
-  nameWithType: Shoot.Sphere
-- uid: Global.Shoot.Sphere*
-  name: Sphere
-  href: api/Global.Shoot.html#Global_Shoot_Sphere_
-  commentId: Overload:Global.Shoot.Sphere
-  isSpec: "True"
-  fullName: Shoot.Sphere
-  nameWithType: Shoot.Sphere
+references: []

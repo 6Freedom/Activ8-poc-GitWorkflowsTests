@@ -1,14 +1,4 @@
 {
-  "api/Global.html": {
-    "href": "api/Global.html",
-    "title": "Namespace Global | GithubCITest Unity documentation",
-    "keywords": "Namespace Global Classes Shoot"
-  },
-  "api/Global.Shoot.html": {
-    "href": "api/Global.Shoot.html",
-    "title": "Class Shoot | GithubCITest Unity documentation",
-    "keywords": "Class Shoot Inheritance Object UnityEngine.Object UnityEngine.Component UnityEngine.Behaviour UnityEngine.MonoBehaviour Shoot Namespace : Global Assembly : Script.dll Syntax public class Shoot : MonoBehaviour Properties | Improve this Doc View Source Sphere Declaration public GameObject Sphere { get; set; } Property Value Type Description UnityEngine.GameObject"
-  },
   "manual/Addressables.html": {
     "href": "manual/Addressables.html",
     "title": "Table of content | GithubCITest Unity documentation",
