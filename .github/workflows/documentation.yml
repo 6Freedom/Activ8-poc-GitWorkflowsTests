@@ -16,7 +16,9 @@ jobs:
         run: choco install -y docfx
 
       - name: Build
-        run: docfx Documentation/docfx.json
+        run: |
+          cp README.md Documentation/index.md
+          docfx Documentation/docfx.json
       # Upload the generated documentation
       - name: Upload site artifact
         uses: actions/upload-artifact@v1
