@@ -185,6 +185,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "manual/docfxformultipleproject.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/docfxformultipleproject.html",
+          "hash": "4C0inpJ2SpiywXtM/kylnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "manual/documentationtype.md",
       "output": {
         ".html": {
@@ -225,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "w3eJrfsBIjGcSJPm4DYvTw=="
+          "hash": "wdPaLNlWp4WbLo4ocWM0Ig=="
         }
       },
       "is_incremental": false,
@@ -258,7 +270,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 9,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
