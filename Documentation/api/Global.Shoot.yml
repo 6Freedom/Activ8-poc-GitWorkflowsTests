@@ -28,6 +28,7 @@ items:
     content: 'public class Shoot : MonoBehaviour'
     content.vb: >-
       Public Class Shoot
+
           Inherits MonoBehaviour
   inheritance:
   - System.Object
