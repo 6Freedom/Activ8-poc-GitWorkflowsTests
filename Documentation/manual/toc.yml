@@ -14,11 +14,7 @@
     href: PoCAlgoRecherche.md
   - name: PoC Unit Test for MRTK
     href: UnitTestForMRTK.md
-  - name: PoC Unit Test for MRTK
-    href: UnitTestForMRTK.md
-  - name: PoC Unit Test for MRTK
-    href: UnitTestForMRTK.md
-  - name: PoC Unit Test for MRTK
-    href: UnitTestForMRTK.md
   - name: PoC which documentation is the best ? - builded in github 2
     href: documentationtype.md
+  - name: Solution to use docfx for multiple projects
+    href: docfxformultipleproject.md
