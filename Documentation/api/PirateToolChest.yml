@@ -1,0 +1,48 @@
+### YamlMime:ManagedReference
+items:
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  id: PirateToolChest
+  children:
+  - PirateToolChest.ELanguage
+  - PirateToolChest.LanguageManager
+  - PirateToolChest.SCSVLine
+  - PirateToolChest.SLocalizedText
+  langs:
+  - csharp
+  - vb
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest
+  type: Namespace
+  assemblies:
+  - Script
+references:
+- uid: PirateToolChest.LanguageManager
+  commentId: T:PirateToolChest.LanguageManager
+  parent: PirateToolChest
+  name: LanguageManager
+  nameWithType: LanguageManager
+  fullName: PirateToolChest.LanguageManager
+- uid: PirateToolChest.SLocalizedText
+  commentId: T:PirateToolChest.SLocalizedText
+  parent: PirateToolChest
+  name: SLocalizedText
+  nameWithType: SLocalizedText
+  fullName: PirateToolChest.SLocalizedText
+- uid: PirateToolChest.SCSVLine
+  commentId: T:PirateToolChest.SCSVLine
+  name: SCSVLine
+  nameWithType: SCSVLine
+  fullName: PirateToolChest.SCSVLine
+- uid: PirateToolChest.ELanguage
+  commentId: T:PirateToolChest.ELanguage
+  parent: PirateToolChest
+  name: ELanguage
+  nameWithType: ELanguage
+  fullName: PirateToolChest.ELanguage
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest

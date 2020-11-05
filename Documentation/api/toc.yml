@@ -1,0 +1,18 @@
+### YamlMime:TableOfContent
+- uid: Global
+  name: Global
+  items:
+  - uid: Global.Shoot
+    name: Shoot
+  name.vb: ''
+- uid: PirateToolChest
+  name: PirateToolChest
+  items:
+  - uid: PirateToolChest.ELanguage
+    name: ELanguage
+  - uid: PirateToolChest.LanguageManager
+    name: LanguageManager
+  - uid: PirateToolChest.SCSVLine
+    name: SCSVLine
+  - uid: PirateToolChest.SLocalizedText
+    name: SLocalizedText

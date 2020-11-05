@@ -1,0 +1,556 @@
+### YamlMime:ManagedReference
+items:
+- uid: PirateToolChest.LanguageManager
+  commentId: T:PirateToolChest.LanguageManager
+  id: LanguageManager
+  parent: PirateToolChest
+  children:
+  - PirateToolChest.LanguageManager.ChangeLanguage(PirateToolChest.ELanguage)
+  - PirateToolChest.LanguageManager.ChangeLanguage(System.String)
+  - PirateToolChest.LanguageManager.currentLanguage
+  - PirateToolChest.LanguageManager.GetTextById(System.String)
+  - PirateToolChest.LanguageManager.GetTMPByContent(System.String)
+  - PirateToolChest.LanguageManager.GetTranslation(System.String,PirateToolChest.ELanguage)
+  - PirateToolChest.LanguageManager.Instance
+  - PirateToolChest.LanguageManager.OnLanguageChanged
+  - PirateToolChest.LanguageManager.SwitchLanguage
+  langs:
+  - csharp
+  - vb
+  name: LanguageManager
+  nameWithType: LanguageManager
+  fullName: PirateToolChest.LanguageManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: LanguageManager
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 7
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: 'public class LanguageManager : MonoBehaviour'
+    content.vb: >-
+      Public Class LanguageManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: PirateToolChest.LanguageManager.Instance
+  commentId: F:PirateToolChest.LanguageManager.Instance
+  id: Instance
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: Instance
+  nameWithType: LanguageManager.Instance
+  fullName: PirateToolChest.LanguageManager.Instance
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: Instance
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 10
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public static LanguageManager Instance
+    return:
+      type: PirateToolChest.LanguageManager
+    content.vb: Public Shared Instance As LanguageManager
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: PirateToolChest.LanguageManager.OnLanguageChanged
+  commentId: E:PirateToolChest.LanguageManager.OnLanguageChanged
+  id: OnLanguageChanged
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: OnLanguageChanged
+  nameWithType: LanguageManager.OnLanguageChanged
+  fullName: PirateToolChest.LanguageManager.OnLanguageChanged
+  type: Event
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: OnLanguageChanged
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 11
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public static event Action<ELanguage> OnLanguageChanged
+    return:
+      type: System.Action{PirateToolChest.ELanguage}
+    content.vb: Public Shared Event OnLanguageChanged As Action(Of ELanguage)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: PirateToolChest.LanguageManager.currentLanguage
+  commentId: F:PirateToolChest.LanguageManager.currentLanguage
+  id: currentLanguage
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: currentLanguage
+  nameWithType: LanguageManager.currentLanguage
+  fullName: PirateToolChest.LanguageManager.currentLanguage
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: currentLanguage
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 16
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public ELanguage currentLanguage
+    return:
+      type: PirateToolChest.ELanguage
+    content.vb: Public currentLanguage As ELanguage
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.SwitchLanguage
+  commentId: M:PirateToolChest.LanguageManager.SwitchLanguage
+  id: SwitchLanguage
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: SwitchLanguage()
+  nameWithType: LanguageManager.SwitchLanguage()
+  fullName: PirateToolChest.LanguageManager.SwitchLanguage()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: SwitchLanguage
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 28
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSwitch from EN to FR and from FR to EN\n"
+  example: []
+  syntax:
+    content: public void SwitchLanguage()
+    content.vb: Public Sub SwitchLanguage
+  overload: PirateToolChest.LanguageManager.SwitchLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.ChangeLanguage(System.String)
+  commentId: M:PirateToolChest.LanguageManager.ChangeLanguage(System.String)
+  id: ChangeLanguage(System.String)
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: ChangeLanguage(String)
+  nameWithType: LanguageManager.ChangeLanguage(String)
+  fullName: PirateToolChest.LanguageManager.ChangeLanguage(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: ChangeLanguage
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 50
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSet current language to a specific language you want\n"
+  example: []
+  syntax:
+    content: public void ChangeLanguage(string newLanguage)
+    parameters:
+    - id: newLanguage
+      type: System.String
+      description: ''
+    content.vb: Public Sub ChangeLanguage(newLanguage As String)
+  overload: PirateToolChest.LanguageManager.ChangeLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.ChangeLanguage(PirateToolChest.ELanguage)
+  commentId: M:PirateToolChest.LanguageManager.ChangeLanguage(PirateToolChest.ELanguage)
+  id: ChangeLanguage(PirateToolChest.ELanguage)
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: ChangeLanguage(ELanguage)
+  nameWithType: LanguageManager.ChangeLanguage(ELanguage)
+  fullName: PirateToolChest.LanguageManager.ChangeLanguage(PirateToolChest.ELanguage)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: ChangeLanguage
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 61
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSet current language to a specific language you want\n"
+  example: []
+  syntax:
+    content: public void ChangeLanguage(ELanguage newLanguage)
+    parameters:
+    - id: newLanguage
+      type: PirateToolChest.ELanguage
+      description: ''
+    content.vb: Public Sub ChangeLanguage(newLanguage As ELanguage)
+  overload: PirateToolChest.LanguageManager.ChangeLanguage*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.GetTextById(System.String)
+  commentId: M:PirateToolChest.LanguageManager.GetTextById(System.String)
+  id: GetTextById(System.String)
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: GetTextById(String)
+  nameWithType: LanguageManager.GetTextById(String)
+  fullName: PirateToolChest.LanguageManager.GetTextById(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: GetTextById
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 75
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSearch in the database the text you want in the current language.\nexample : you want to get the translation of a specific sentence in the current language\n"
+  example: []
+  syntax:
+    content: public string GetTextById(string _id)
+    parameters:
+    - id: _id
+      type: System.String
+      description: The ID of the text you want
+    return:
+      type: System.String
+      description: The text associated with the id in the current language
+    content.vb: Public Function GetTextById(_id As String) As String
+  overload: PirateToolChest.LanguageManager.GetTextById*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.GetTMPByContent(System.String)
+  commentId: M:PirateToolChest.LanguageManager.GetTMPByContent(System.String)
+  id: GetTMPByContent(System.String)
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: GetTMPByContent(String)
+  nameWithType: LanguageManager.GetTMPByContent(String)
+  fullName: PirateToolChest.LanguageManager.GetTMPByContent(System.String)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: GetTMPByContent
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 94
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSearch in the database the SLocalizedText you want in the current language.\nExample : you need a SLocalizedText from a TextMeshPro content to retrieve its ID\n"
+  example: []
+  syntax:
+    content: public SLocalizedText GetTMPByContent(string _content)
+    parameters:
+    - id: _content
+      type: System.String
+      description: The text currently in the scene
+    return:
+      type: PirateToolChest.SLocalizedText
+      description: The SLocalizedText associated with the text currently in the scene, in the current language
+    content.vb: Public Function GetTMPByContent(_content As String) As SLocalizedText
+  overload: PirateToolChest.LanguageManager.GetTMPByContent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.LanguageManager.GetTranslation(System.String,PirateToolChest.ELanguage)
+  commentId: M:PirateToolChest.LanguageManager.GetTranslation(System.String,PirateToolChest.ELanguage)
+  id: GetTranslation(System.String,PirateToolChest.ELanguage)
+  parent: PirateToolChest.LanguageManager
+  langs:
+  - csharp
+  - vb
+  name: GetTranslation(String, ELanguage)
+  nameWithType: LanguageManager.GetTranslation(String, ELanguage)
+  fullName: PirateToolChest.LanguageManager.GetTranslation(System.String, PirateToolChest.ELanguage)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: GetTranslation
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 106
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  summary: "\nSearch in the CSV the translation of a certain text. Do not really translate of course.\nExample : you have a text in english and you want the translation of this text in french.\n"
+  example: []
+  syntax:
+    content: public string GetTranslation(string _text, ELanguage _lang)
+    parameters:
+    - id: _text
+      type: System.String
+      description: The source text
+    - id: _lang
+      type: PirateToolChest.ELanguage
+      description: The language you want the new text in
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Function GetTranslation(_text As String, _lang As ELanguage) As String
+  overload: PirateToolChest.LanguageManager.GetTranslation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: PirateToolChest.LanguageManager
+  commentId: T:PirateToolChest.LanguageManager
+  parent: PirateToolChest
+  name: LanguageManager
+  nameWithType: LanguageManager
+  fullName: PirateToolChest.LanguageManager
+- uid: System.Action{PirateToolChest.ELanguage}
+  commentId: T:System.Action{PirateToolChest.ELanguage}
+  parent: System
+  definition: System.Action`1
+  name: Action<ELanguage>
+  nameWithType: Action<ELanguage>
+  fullName: System.Action<PirateToolChest.ELanguage>
+  nameWithType.vb: Action(Of ELanguage)
+  fullName.vb: System.Action(Of PirateToolChest.ELanguage)
+  name.vb: Action(Of ELanguage)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PirateToolChest.ELanguage
+    name: ELanguage
+    nameWithType: ELanguage
+    fullName: PirateToolChest.ELanguage
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PirateToolChest.ELanguage
+    name: ELanguage
+    nameWithType: ELanguage
+    fullName: PirateToolChest.ELanguage
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Action`1
+  commentId: T:System.Action`1
+  isExternal: true
+  name: Action<T>
+  nameWithType: Action<T>
+  fullName: System.Action<T>
+  nameWithType.vb: Action(Of T)
+  fullName.vb: System.Action(Of T)
+  name.vb: Action(Of T)
+  spec.csharp:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Action`1
+    name: Action
+    nameWithType: Action
+    fullName: System.Action
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: PirateToolChest.ELanguage
+  commentId: T:PirateToolChest.ELanguage
+  parent: PirateToolChest
+  name: ELanguage
+  nameWithType: ELanguage
+  fullName: PirateToolChest.ELanguage
+- uid: PirateToolChest.LanguageManager.SwitchLanguage*
+  commentId: Overload:PirateToolChest.LanguageManager.SwitchLanguage
+  name: SwitchLanguage
+  nameWithType: LanguageManager.SwitchLanguage
+  fullName: PirateToolChest.LanguageManager.SwitchLanguage
+- uid: PirateToolChest.LanguageManager.ChangeLanguage*
+  commentId: Overload:PirateToolChest.LanguageManager.ChangeLanguage
+  name: ChangeLanguage
+  nameWithType: LanguageManager.ChangeLanguage
+  fullName: PirateToolChest.LanguageManager.ChangeLanguage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: PirateToolChest.LanguageManager.GetTextById*
+  commentId: Overload:PirateToolChest.LanguageManager.GetTextById
+  name: GetTextById
+  nameWithType: LanguageManager.GetTextById
+  fullName: PirateToolChest.LanguageManager.GetTextById
+- uid: PirateToolChest.LanguageManager.GetTMPByContent*
+  commentId: Overload:PirateToolChest.LanguageManager.GetTMPByContent
+  name: GetTMPByContent
+  nameWithType: LanguageManager.GetTMPByContent
+  fullName: PirateToolChest.LanguageManager.GetTMPByContent
+- uid: PirateToolChest.SLocalizedText
+  commentId: T:PirateToolChest.SLocalizedText
+  parent: PirateToolChest
+  name: SLocalizedText
+  nameWithType: SLocalizedText
+  fullName: PirateToolChest.SLocalizedText
+- uid: PirateToolChest.LanguageManager.GetTranslation*
+  commentId: Overload:PirateToolChest.LanguageManager.GetTranslation
+  name: GetTranslation
+  nameWithType: LanguageManager.GetTranslation
+  fullName: PirateToolChest.LanguageManager.GetTranslation

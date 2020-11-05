@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: PirateToolChest.SCSVLine
+  commentId: T:PirateToolChest.SCSVLine
+  id: SCSVLine
+  parent: PirateToolChest
+  children:
+  - PirateToolChest.SCSVLine.#ctor(System.String,System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String})
+  - PirateToolChest.SCSVLine.ID
+  - PirateToolChest.SCSVLine.translations
+  langs:
+  - csharp
+  - vb
+  name: SCSVLine
+  nameWithType: SCSVLine
+  fullName: PirateToolChest.SCSVLine
+  type: Struct
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: SCSVLine
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 249
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SCSVLine
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SCSVLine
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: PirateToolChest.SCSVLine.ID
+  commentId: F:PirateToolChest.SCSVLine.ID
+  id: ID
+  parent: PirateToolChest.SCSVLine
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: SCSVLine.ID
+  fullName: PirateToolChest.SCSVLine.ID
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: ID
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 252
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public string ID
+    return:
+      type: System.String
+    content.vb: Public ID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.SCSVLine.translations
+  commentId: F:PirateToolChest.SCSVLine.translations
+  id: translations
+  parent: PirateToolChest.SCSVLine
+  langs:
+  - csharp
+  - vb
+  name: translations
+  nameWithType: SCSVLine.translations
+  fullName: PirateToolChest.SCSVLine.translations
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: translations
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 253
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public Dictionary<ELanguage, string> translations
+    return:
+      type: System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String}
+    content.vb: Public translations As Dictionary(Of ELanguage, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.SCSVLine.#ctor(System.String,System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String})
+  commentId: M:PirateToolChest.SCSVLine.#ctor(System.String,System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String})
+  id: '#ctor(System.String,System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String})'
+  parent: PirateToolChest.SCSVLine
+  langs:
+  - csharp
+  - vb
+  name: SCSVLine(String, Dictionary<ELanguage, String>)
+  nameWithType: SCSVLine.SCSVLine(String, Dictionary<ELanguage, String>)
+  fullName: PirateToolChest.SCSVLine.SCSVLine(System.String, System.Collections.Generic.Dictionary<PirateToolChest.ELanguage, System.String>)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: .ctor
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 255
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public SCSVLine(string _id, Dictionary<ELanguage, string> _text)
+    parameters:
+    - id: _id
+      type: System.String
+    - id: _text
+      type: System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String}
+    content.vb: Public Sub New(_id As String, _text As Dictionary(Of ELanguage, String))
+  overload: PirateToolChest.SCSVLine.#ctor*
+  nameWithType.vb: SCSVLine.SCSVLine(String, Dictionary(Of ELanguage, String))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: PirateToolChest.SCSVLine.SCSVLine(System.String, System.Collections.Generic.Dictionary(Of PirateToolChest.ELanguage, System.String))
+  name.vb: SCSVLine(String, Dictionary(Of ELanguage, String))
+references:
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String}
+  commentId: T:System.Collections.Generic.Dictionary{PirateToolChest.ELanguage,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  name: Dictionary<ELanguage, String>
+  nameWithType: Dictionary<ELanguage, String>
+  fullName: System.Collections.Generic.Dictionary<PirateToolChest.ELanguage, System.String>
+  nameWithType.vb: Dictionary(Of ELanguage, String)
+  fullName.vb: System.Collections.Generic.Dictionary(Of PirateToolChest.ELanguage, System.String)
+  name.vb: Dictionary(Of ELanguage, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: PirateToolChest.ELanguage
+    name: ELanguage
+    nameWithType: ELanguage
+    fullName: PirateToolChest.ELanguage
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: PirateToolChest.ELanguage
+    name: ELanguage
+    nameWithType: ELanguage
+    fullName: PirateToolChest.ELanguage
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: System.Collections.Generic.Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: PirateToolChest.SCSVLine.#ctor*
+  commentId: Overload:PirateToolChest.SCSVLine.#ctor
+  name: SCSVLine
+  nameWithType: SCSVLine.SCSVLine
+  fullName: PirateToolChest.SCSVLine.SCSVLine

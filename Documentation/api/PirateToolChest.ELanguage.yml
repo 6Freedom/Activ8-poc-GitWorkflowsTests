@@ -1,0 +1,145 @@
+### YamlMime:ManagedReference
+items:
+- uid: PirateToolChest.ELanguage
+  commentId: T:PirateToolChest.ELanguage
+  id: ELanguage
+  parent: PirateToolChest
+  children:
+  - PirateToolChest.ELanguage.en
+  - PirateToolChest.ELanguage.fr
+  - PirateToolChest.ELanguage.nothing
+  langs:
+  - csharp
+  - vb
+  name: ELanguage
+  nameWithType: ELanguage
+  fullName: PirateToolChest.ELanguage
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: ELanguage
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 263
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public enum ELanguage
+    content.vb: Public Enum ELanguage
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: PirateToolChest.ELanguage.nothing
+  commentId: F:PirateToolChest.ELanguage.nothing
+  id: nothing
+  parent: PirateToolChest.ELanguage
+  langs:
+  - csharp
+  - vb
+  name: nothing
+  nameWithType: ELanguage.nothing
+  fullName: PirateToolChest.ELanguage.nothing
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: nothing
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 265
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: nothing = 0
+    return:
+      type: PirateToolChest.ELanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PirateToolChest.ELanguage.en
+  commentId: F:PirateToolChest.ELanguage.en
+  id: en
+  parent: PirateToolChest.ELanguage
+  langs:
+  - csharp
+  - vb
+  name: en
+  nameWithType: ELanguage.en
+  fullName: PirateToolChest.ELanguage.en
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: en
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 266
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: en = 1
+    return:
+      type: PirateToolChest.ELanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: PirateToolChest.ELanguage.fr
+  commentId: F:PirateToolChest.ELanguage.fr
+  id: fr
+  parent: PirateToolChest.ELanguage
+  langs:
+  - csharp
+  - vb
+  name: fr
+  nameWithType: ELanguage.fr
+  fullName: PirateToolChest.ELanguage.fr
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: fr
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 267
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: fr = 2
+    return:
+      type: PirateToolChest.ELanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest
+- uid: PirateToolChest.ELanguage
+  commentId: T:PirateToolChest.ELanguage
+  parent: PirateToolChest
+  name: ELanguage
+  nameWithType: ELanguage
+  fullName: PirateToolChest.ELanguage

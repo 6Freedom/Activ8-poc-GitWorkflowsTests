@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: PirateToolChest.SLocalizedText
+  commentId: T:PirateToolChest.SLocalizedText
+  id: SLocalizedText
+  parent: PirateToolChest
+  children:
+  - PirateToolChest.SLocalizedText.#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)
+  - PirateToolChest.SLocalizedText.ID
+  - PirateToolChest.SLocalizedText.originalFont
+  - PirateToolChest.SLocalizedText.TMP
+  langs:
+  - csharp
+  - vb
+  name: SLocalizedText
+  nameWithType: SLocalizedText
+  fullName: PirateToolChest.SLocalizedText
+  type: Struct
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: SLocalizedText
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 234
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct SLocalizedText
+    content.vb: >-
+      <Serializable>
+
+      Public Structure SLocalizedText
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: PirateToolChest.SLocalizedText.TMP
+  commentId: F:PirateToolChest.SLocalizedText.TMP
+  id: TMP
+  parent: PirateToolChest.SLocalizedText
+  langs:
+  - csharp
+  - vb
+  name: TMP
+  nameWithType: SLocalizedText.TMP
+  fullName: PirateToolChest.SLocalizedText.TMP
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: TMP
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 237
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public TMP_Text TMP
+    return:
+      type: TMPro.TMP_Text
+    content.vb: Public TMP As TMP_Text
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.SLocalizedText.originalFont
+  commentId: F:PirateToolChest.SLocalizedText.originalFont
+  id: originalFont
+  parent: PirateToolChest.SLocalizedText
+  langs:
+  - csharp
+  - vb
+  name: originalFont
+  nameWithType: SLocalizedText.originalFont
+  fullName: PirateToolChest.SLocalizedText.originalFont
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: originalFont
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 238
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public TMP_FontAsset originalFont
+    return:
+      type: TMPro.TMP_FontAsset
+    content.vb: Public originalFont As TMP_FontAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.SLocalizedText.ID
+  commentId: F:PirateToolChest.SLocalizedText.ID
+  id: ID
+  parent: PirateToolChest.SLocalizedText
+  langs:
+  - csharp
+  - vb
+  name: ID
+  nameWithType: SLocalizedText.ID
+  fullName: PirateToolChest.SLocalizedText.ID
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: ID
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 239
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public string ID
+    return:
+      type: System.String
+    content.vb: Public ID As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: PirateToolChest.SLocalizedText.#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)
+  commentId: M:PirateToolChest.SLocalizedText.#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)
+  id: '#ctor(TMPro.TMP_Text,System.String,TMPro.TMP_FontAsset)'
+  parent: PirateToolChest.SLocalizedText
+  langs:
+  - csharp
+  - vb
+  name: SLocalizedText(TMP_Text, String, TMP_FontAsset)
+  nameWithType: SLocalizedText.SLocalizedText(TMP_Text, String, TMP_FontAsset)
+  fullName: PirateToolChest.SLocalizedText.SLocalizedText(TMPro.TMP_Text, System.String, TMPro.TMP_FontAsset)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/LanguageManager.cs
+      branch: main
+      repo: https://github.com/CleryJa/GithubCITest.git
+    id: .ctor
+    path: ../Assets/Scripts/LanguageManager.cs
+    startLine: 241
+  assemblies:
+  - Script
+  namespace: PirateToolChest
+  syntax:
+    content: public SLocalizedText(TMP_Text _tmp, string _id, TMP_FontAsset _originalFont)
+    parameters:
+    - id: _tmp
+      type: TMPro.TMP_Text
+    - id: _id
+      type: System.String
+    - id: _originalFont
+      type: TMPro.TMP_FontAsset
+    content.vb: Public Sub New(_tmp As TMP_Text, _id As String, _originalFont As TMP_FontAsset)
+  overload: PirateToolChest.SLocalizedText.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: PirateToolChest
+  commentId: N:PirateToolChest
+  name: PirateToolChest
+  nameWithType: PirateToolChest
+  fullName: PirateToolChest
+- uid: TMPro.TMP_Text
+  commentId: T:TMPro.TMP_Text
+  parent: TMPro
+  name: TMP_Text
+  nameWithType: TMP_Text
+  fullName: TMPro.TMP_Text
+- uid: TMPro
+  commentId: N:TMPro
+  name: TMPro
+  nameWithType: TMPro
+  fullName: TMPro
+- uid: TMPro.TMP_FontAsset
+  commentId: T:TMPro.TMP_FontAsset
+  parent: TMPro
+  name: TMP_FontAsset
+  nameWithType: TMP_FontAsset
+  fullName: TMPro.TMP_FontAsset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: PirateToolChest.SLocalizedText.#ctor*
+  commentId: Overload:PirateToolChest.SLocalizedText.#ctor
+  name: SLocalizedText
+  nameWithType: SLocalizedText.SLocalizedText
+  fullName: PirateToolChest.SLocalizedText.SLocalizedText
