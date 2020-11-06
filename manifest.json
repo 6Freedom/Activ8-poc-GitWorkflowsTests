@@ -3,7 +3,7 @@
     "baseUrl": "https://cleryja.github.io/GithubCITest/"
   },
   "homepages": [],
-  "source_base_path": "D:/a/GitWorkflowsTests/GitWorkflowsTests/Documentation",
+  "source_base_path": "D:/a/Activ8-poc-GitWorkflowsTests/Activ8-poc-GitWorkflowsTests/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Shoot.html",
-          "hash": "xW8h+5paL47Bag+A5BI09Q=="
+          "hash": "tsP9zx5zegecrzhdkOs3Wg=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.ELanguage.html",
-          "hash": "4rd7h2mQsJGP1IowPgK/dw=="
+          "hash": "Qqer88bdRchTDqJBn13aSQ=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.LanguageManager.html",
-          "hash": "BXz+ntUzpOw84GW7zv5jcA=="
+          "hash": "JrhNxtRyMo+U59XXmnhcLg=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.SCSVLine.html",
-          "hash": "nwiaHMRcsXo8zptD+E33yw=="
+          "hash": "CY4OwLD1ByNZXaX6nsdT4Q=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.SLocalizedText.html",
-          "hash": "hzpgBA9WeXgqWoSPpj3P0w=="
+          "hash": "LzJqjxs5IgHY30dmgU9zqA=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "RP2uxqAzPk1furVpFxFVLw=="
+          "hash": "unXYiIjz8CyNtxGXlHyw9w=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Addressables.html",
-          "hash": "4mOXMgu3UnXKlAEqpIwK9Q=="
+          "hash": "d/ZG23oHQk8Qvkwq2B2yrA=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CI_Unity_MRTK.html",
-          "hash": "Xculc6fR/xpxA1fHicToSw=="
+          "hash": "Axm+iDE1Aev/8yXZWxAlNw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CIwithUnityorNetCoreApp.html",
-          "hash": "bGD9bHtIGdCkPxV64F906w=="
+          "hash": "jI5S9sl6uyf74aVDO4fstQ=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/PoCAlgoRecherche.html",
-          "hash": "5MavfoA5O+mcXq28LniGwg=="
+          "hash": "awV2IlfjTPWFC2XcRxpS7g=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/UnitTestForMRTK.html",
-          "hash": "kFjQDLSpRqr9zZlchJNuJA=="
+          "hash": "XQLzlYddBpx7LkYRyHfd4w=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/docfxformultipleproject.html",
-          "hash": "06LXJRrARP2ub2l6wJ3buQ=="
+          "hash": "C4V7p+qYMdcFtdV3qCiKqg=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/documentationtype.html",
-          "hash": "0Tg0+1m2shKX0PAnVwlLfQ=="
+          "hash": "7rCn8HZG6TY/mI5h+DqAow=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/identificationSystem.html",
-          "hash": "dVY1tvkubA9ka8PgT6XEJQ=="
+          "hash": "n/A3H4yNpOL1EQQcR2VMRA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/localization.html",
-          "hash": "mukv0OWMMMbMYf0yLVn+QQ=="
+          "hash": "URgUZX/eS2G4iupR1MKsgQ=="
         }
       },
       "is_incremental": false,
