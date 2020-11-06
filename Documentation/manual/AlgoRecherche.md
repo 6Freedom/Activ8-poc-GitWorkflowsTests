@@ -1,4 +1,9 @@
-﻿#PoC Algorithme de Recherche
+﻿# PoC Algorithme de Recherche
+
+[Cas d'utilisation en C# Console](https://hastebin.com/abuwekimuk.csharp)
+
+## Contexte
+Trouver l'algorithme de recherche pour la recherche de gammes
 
 ## Algorithmes de sous-chaîne
 de : https://www.wikizero.com/fr/Algorithme_de_recherche_de_sous-cha%C3%AEne  
@@ -17,3 +22,5 @@ L'algorithme de distance de Levenshtein ne donne pas directement la liste des r�
 
 [Une librairie pour faire des recherches en Fuzzy Matching](https://github.com/JakeBayer/FuzzySharp/tree/master/FuzzySharp) existe déjà, et semble être la meilleur solution pour faire des recherches qui accepte les typos.  
 Elle est disponbile également sur [NuGet](https://www.nuget.org/packages/FuzzySharp) permettant de l'installer facilement dans le projet. 
+
+Les fonctions ``Process.ExtractSorted`` et ``Process.ExtractTop`` semblent être les fonctions qui correspondent le plus à notre besoin, la première permet d'avoir la liste de tous les mots qui correspondent du plus au moins correspondant, et la deuxième fait la même chose mais pour seulement les X (donné en argument) premiers resultats.

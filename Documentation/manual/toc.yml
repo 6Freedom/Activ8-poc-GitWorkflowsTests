@@ -1,20 +1,16 @@
 - name: PoC
   items:
-  - name: PoC Addressables
+  - name: Addressables
     href: Addressables.md
   - name: CI with Unity or NetCoreApp
-    href: CIwithUnityorNetCoreApp.md
-  - name: CI With Unity and the MRTK
-    href: CI_Unity_MRTK.md
+    href: ContinousIntegration.md
+  - name: Algo Recherche
+    href: AlgoRecherche.md
   - name: Identification System
     href: identificationSystem.md
   - name: PoC Localization
     href: localization.md
-  - name: PoC Algo Recherche
-    href: PoCAlgoRecherche.md
-  - name: PoC Unit Test for MRTK
+  - name: Unit Test for MRTK
     href: UnitTestForMRTK.md
-  - name: PoC which documentation is the best ? - builded in github 2
+  - name: which documentation is the best ?
     href: documentationtype.md
-  - name: Solution to use docfx for multiple projects
-    href: docfxformultipleproject.md
