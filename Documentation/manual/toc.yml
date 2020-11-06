@@ -2,15 +2,17 @@
   items:
   - name: Addressables
     href: Addressables.md
-  - name: CI with Unity or NetCoreApp
-    href: ContinousIntegration.md
   - name: Algo Recherche
     href: AlgoRecherche.md
-  - name: Identification System
-    href: identificationSystem.md
-  - name: PoC Localization
-    href: localization.md
+  - name: CI with Unity or NetCoreApp
+    href: ContinousIntegration.md
+  - name: PDF Parser
+    href: PDFLib.md
   - name: Unit Test for MRTK
     href: UnitTestForMRTK.md
-  - name: which documentation is the best ?
+  - name: Identification System
+    href: identificationSystem.md
+  - name: Documentation for Activ8
     href: documentationtype.md
+  - name: PoC Localization
+    href: localization.md
