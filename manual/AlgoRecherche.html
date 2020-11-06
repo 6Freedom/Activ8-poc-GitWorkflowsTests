@@ -79,6 +79,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="poc-algorithme-de-recherche">PoC Algorithme de Recherche</h1>
 
+<p><a href="https://hastebin.com/abuwekimuk.csharp">Cas d&#39;utilisation en C# Console</a></p>
+<h2 id="contexte">Contexte</h2>
+<p>Trouver l&#39;algorithme de recherche pour la recherche de gammes</p>
 <h2 id="algorithmes-de-sous-chaîne">Algorithmes de sous-chaîne</h2>
 <p>de : <a href="https://www.wikizero.com/fr/Algorithme_de_recherche_de_sous-cha%C3%AEne">https://www.wikizero.com/fr/Algorithme_de_recherche_de_sous-cha%C3%AEne</a>  </p>
 <p>Les algorithmes de recherche unique n&#39;ont pas l&#39;air de supporter les typos et les fautes, les rendants beaucoup moins intéressants pour notre cas d&#39;utilisation</p>
@@ -88,6 +91,7 @@
 <p>L&#39;algorithme de distance de Levenshtein ne donne pas directement la liste des résultats qui correspondrait à la recherche mais va donc donner un score de correspondance qui permettra donc d&#39;accepter les erreurs. </p>
 <h2 id="fuzzy-sharp">Fuzzy Sharp</h2>
 <p><a href="https://github.com/JakeBayer/FuzzySharp/tree/master/FuzzySharp">Une librairie pour faire des recherches en Fuzzy Matching</a> existe déjà, et semble être la meilleur solution pour faire des recherches qui accepte les typos.<br>Elle est disponbile également sur <a href="https://www.nuget.org/packages/FuzzySharp">NuGet</a> permettant de l&#39;installer facilement dans le projet. </p>
+<p>Les fonctions <code>Process.ExtractSorted</code> et <code>Process.ExtractTop</code> semblent être les fonctions qui correspondent le plus à notre besoin, la première permet d&#39;avoir la liste de tous les mots qui correspondent du plus au moins correspondant, et la deuxième fait la même chose mais pour seulement les X (donné en argument) premiers resultats.</p>
 </article>
           </div>
           
@@ -96,7 +100,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/6Freedom/Activ8-poc-GitWorkflowsTests/blob/main/Documentation/manual/PoCAlgoRecherche.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/6Freedom/Activ8-poc-GitWorkflowsTests/blob/main/Documentation/manual/AlgoRecherche.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

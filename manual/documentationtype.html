@@ -79,6 +79,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="doxygen-vs-docfx">Doxygen VS DocFX</h1>
 
+<h1 id="context">Context</h1>
+<p>Which documentation can be used to make the documentation of Activ8</p>
+<h1 id="comparison">Comparison</h1>
 <table>
 <thead>
 <tr>
@@ -131,6 +134,19 @@
 <h1 id="conclusion">Conclusion</h1>
 <p>DocFX seems easier to use and setup. A lot more resources are available for DocFX than for Doxygen. For DocFX doc templates are available and easy to install and not every resources you look for were made before 2016. 
 Markdown are handled in a better way for DocFX.</p>
+<h1 id="more-about-docfx">More about DocFX</h1>
+<h2 id="setup-a-workflow-to-make-the-documentation-update-automatically">Setup a workflow to make the documentation update automatically</h2>
+<p>The goal is to make a branch that will be dedicated to being the documentation. It will contains nothing more than the website file to make the documentation.</p>
+<p>Firstly, you need to setup a workflow by following <a href="https://github.com/NormandErwan/DocFxForUnity#generate-automatically-your-documentation">this</a>. Be sure to edit it so that it triggers with the pushes on the correct branch.
+This workflow will create a branch <code>gh-pages</code> and rebuild the website everytime it is needed.<br>Then, make sure that in the Settings repo, the <code>Source</code> of the github pages of your project is the correct branch (it should be <code>gh-pages</code>).<br>Lastly, you need to edit the <code>.gitignore</code> so that you can have the <code>.sln</code> and the <code>.csproj</code> files of your project (DocFX builds its automatic documentation based on that).<br>Everything should be ready now.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<p>If there is no <code>.csproj</code> file in your project folder you can generate them with Unity in your <code>Preferences &gt; External Tools</code> check <code>Generate all .csproj files</code>. You are going to want to uncheck it after that or you won&#39;t be able to delete the uncesseray <code>.csproj</code> files. Then in your project&#39;s root you can delete the default&#39;s unity csproj or else DocFX with add them to the documentation : </p>
+<p><img src="https://i.imgur.com/hRBeLFh.png" alt="example"></p>
+<h1 id="solution-to-have-docfx-for-multiple-projects">Solution to have docFX for multiple projects</h1>
+<h4 id="problème-">Problème :</h4>
+<p>Chaque repo a sa doc (= son site), comment faire pour avoir 1 seul doc pour tous les repos ?  </p>
+<h4 id="solution-proposée-">Solution proposée :</h4>
+<p>Avoir des <a href="https://github.com/dotnet/docfx/issues/2129">liens absolus</a> dans la navbar qui amène vers les autres docs + un site qui servira de home page<br>chaque documentation des repos utiliseront le même thème (ou au moins la même base) pour qu&#39;il y ait une cohérence dans la documentation</p>
 </article>
           </div>
           

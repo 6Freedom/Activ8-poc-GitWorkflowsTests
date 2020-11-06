@@ -137,11 +137,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/CI_Unity_MRTK.md",
+      "source_relative_path": "manual/AlgoRecherche.md",
       "output": {
         ".html": {
-          "relative_path": "manual/CI_Unity_MRTK.html",
-          "hash": "Axm+iDE1Aev/8yXZWxAlNw=="
+          "relative_path": "manual/AlgoRecherche.html",
+          "hash": "vEIEhZSn5jvCBJ0zIWiwsA=="
         }
       },
       "is_incremental": false,
@@ -149,11 +149,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/CIwithUnityorNetCoreApp.md",
+      "source_relative_path": "manual/ContinousIntegration.md",
       "output": {
         ".html": {
-          "relative_path": "manual/CIwithUnityorNetCoreApp.html",
-          "hash": "jI5S9sl6uyf74aVDO4fstQ=="
+          "relative_path": "manual/ContinousIntegration.html",
+          "hash": "+N1jYWoWyndq+sS0Izd3Iw=="
         }
       },
       "is_incremental": false,
@@ -161,11 +161,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/PoCAlgoRecherche.md",
+      "source_relative_path": "manual/PDFLib.md",
       "output": {
         ".html": {
-          "relative_path": "manual/PoCAlgoRecherche.html",
-          "hash": "awV2IlfjTPWFC2XcRxpS7g=="
+          "relative_path": "manual/PDFLib.html",
+          "hash": "aB8UduZfJiAFiQh2PSYFWA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/docfxformultipleproject.html",
-          "hash": "C4V7p+qYMdcFtdV3qCiKqg=="
+          "hash": "jO6qm2h+eIWSeAtg4vuZSA=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/documentationtype.html",
-          "hash": "7rCn8HZG6TY/mI5h+DqAow=="
+          "hash": "Z2XmLMlEM5rxR3bDFoJOCA=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/localization.html",
-          "hash": "URgUZX/eS2G4iupR1MKsgQ=="
+          "hash": "V02LCYj7B1bi29ShXo8DmA=="
         }
       },
       "is_incremental": false,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "wdPaLNlWp4WbLo4ocWM0Ig=="
+          "hash": "xY7qEviRU2itaSIU/j4Psw=="
         }
       },
       "is_incremental": false,

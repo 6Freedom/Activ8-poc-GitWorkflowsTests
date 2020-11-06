@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PDF Parser lib comparaison | GithubCITest Unity documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="PDF Parser lib comparaison | GithubCITest Unity documentation ">
+    <meta name="generator" content="docfx 2.56.4.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="pdf-parser-lib-comparaison">PDF Parser lib comparaison</h1>
+
+<p>Note : On dirait que la plupart des libs sont payantes/demande de payer si on veut les utiliser pour une raison commerciale</p>
+<h2 id="contexte">Contexte</h2>
+<p>Trouver une lib pour pouvoir extraire les process et les transformer ou au moins en deviner une gamme.   </p>
+<h2 id="itext7-lienhttpsgithubcomitextitext7-dotnet">iText7 (<a href="https://github.com/itext/itext7-dotnet">lien</a>)</h2>
+<p><em>Note : iText7 est la nouvelle version de <a href="https://www.nuget.org/packages/iTextSharp/">iTextSharp</a> que Grégoire avait trouvé.</em>  </p>
+<p>N&#39;a pas l&#39;air de proposer des services avancés, mais permettrai de lire des documents pdf en C#. Semble complexe à utiliser avec une <a href="https://api.itextpdf.com/iText7/dotnet/7.1.8/index.html">documentation</a> peu expliqué (seulement de la doc généré automatiquement).
+Semble proposer de convertir d&#39;html vers pdf mais pas l&#39;inverse.</p>
+<h2 id="pdftron-lienhttpswwwpdftroncom">PdfTron (<a href="https://www.pdftron.com/">lien</a>)</h2>
+<p>Semble proposer un service de lecture avancé de document PDF :<br><em>&quot;PDFTron.ai is a document understanding framework that combines the latest in deep learning and AI with 20 years of PDF and document expertise. PDFTron’s 3rd generation of content extraction technology is currently in development.&quot;</em><br>Après un test sur leur <a href="https://www.pdftron.com/pdf-tools/pdf-table-extraction/">site</a> avec le document de Poclain, cet outil n&#39;a pas l&#39;air d&#39;être assez fonctionnel pour nos besoins. à tester avec d&#39;autres documents.</p>
+<p>La conversion en HTML semble très propre après un test sur leur <a href="https://www.pdftron.com/pdf-sdk/pdf-to-html/">site</a></p>
+<h2 id="docoticpdf-de-bitmiracle-lien-1httpsbitmiraclecompdf-library-lien-2httpsgithubcombitmiracledocoticpdfsamples">Docotic.pdf de BitMiracle (<a href="https://bitmiracle.com/pdf-library/">lien 1</a>) (<a href="https://github.com/BitMiracle/Docotic.Pdf.Samples">lien 2</a>)</h2>
+<p>A une fonction pour extraire automatiquement tout le texte et le mettre en String. Pareil pour les images. -&gt; semble simple à utiliser.<br>à l&#39;air d&#39;être très complet avec une bonne documentation : <a href="https://github.com/BitMiracle/Docotic.Pdf.Samples">https://github.com/BitMiracle/Docotic.Pdf.Samples</a>
+Impossible de convertir en XML / HTML mais propose de l&#39;OCR pour lire du texte sur des images.</p>
+<h2 id="asposepdf-lienhttpsproductsasposecompdfnet">Aspose.pdf (<a href="https://products.aspose.com/pdf/net">lien</a>)</h2>
+<p>Permettrait de convertir le document pdf en xml ou html. Propose beaucoup de service pour modifier un pdf, mais pas pour le lire.</p>
+<h2 id="xpdfreader-lienhttpwwwxpdfreadercomindexhtml">XpdfReader (<a href="http://www.xpdfreader.com/index.html">lien</a>)</h2>
+<p>N&#39;est pas une lib mais un logiciel capable d&#39;ouvrir des pdfs et de les convertir.</p>
+<h2 id="pdfminersix-lien-1httpspdfminersixreadthedocsioenlatest-lien-2httpspypiorgprojectpdfminer">pdfminer.six (<a href="https://pdfminersix.readthedocs.io/en/latest/">lien 1</a>) (<a href="https://pypi.org/project/pdfminer/">lien 2</a>)</h2>
+<p>Est en python. Mais possède un outil pour <a href="https://pdfminersix.readthedocs.io/en/latest/reference/commandline.html#api-dumppdf">extraire la structure du document</a>.</p>
+<h2 id="pdf-reference-lienhttpswwwadobecomdevnetpdfpdfreferencearchivehtml">PDF Reference (<a href="https://www.adobe.com/devnet/pdf/pdf_reference_archive.html">lien</a>)</h2>
+<p>Semble outdated : &quot;<em>(Updated Oct. 23, 2007)</em>&quot;</p>
+<h2 id="pdf-focus-lienhttpssautinsoftcomproductspdf-focushow-to-extract-text-from-pdf-in-dotnet-aspnet-csharp-vbphp">PDF Focus (<a href="https://sautinsoft.com/products/pdf-focus/how-to-extract-text-from-pdf-in-dotnet-aspnet-csharp-vb.php">lien</a>)</h2>
+<p>Semble permettre de <a href="https://sautinsoft.com/products/pdf-focus/convert-pdf-to-xml-document-in-dotnet.php">convertir le document en xml</a> ou en <a href="https://sautinsoft.com/products/pdf-focus/convert-pdf-to-html-in-dotnet.php">html</a> et ainsi manipuler le pdf avec sa structure.
+La conversion xml semble plus facile à manipuler que la conversion html. La conversion HTML laisse beaucoup plus à désirer que celle de PDFTron.</p>
+<h1 id="réflexions">Réflexions</h1>
+<p>Est-ce que convertir le pdf en html ou xml permettrait de plus facilement le manipuler/lire ?</p>
+<p>Avoir une version html/xml permettrait d&#39;avoir le document mise en page tout en gardant la structure de donnée derrière.
+Le XML semble plus adapté après avoir testé les 2 façons de faire avec la lib de Sautinsoft.</p>
+<p>Faire que l&#39;utilisateur capture des zones de son écran pour les lire ensuite avec de l&#39;OCR</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/6Freedom/Activ8-poc-GitWorkflowsTests/blob/main/Documentation/manual/PDFLib.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            GithubCITest Unity documentation
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
