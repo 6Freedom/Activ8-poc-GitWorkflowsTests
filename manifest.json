@@ -3,7 +3,7 @@
     "baseUrl": "https://cleryja.github.io/GithubCITest/"
   },
   "homepages": [],
-  "source_base_path": "D:/a/GithubCITest/GithubCITest/Documentation",
+  "source_base_path": "D:/a/GitWorkflowsTests/GitWorkflowsTests/Documentation",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Shoot.html",
-          "hash": "XgWvhGx1yZy1P64ccrtOQg=="
+          "hash": "xW8h+5paL47Bag+A5BI09Q=="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.ELanguage.html",
-          "hash": "lvh/K3Ps+UWg2Z58XWcLgQ=="
+          "hash": "4rd7h2mQsJGP1IowPgK/dw=="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.LanguageManager.html",
-          "hash": "RJDXV7M3QMAmz1fI2T8pPw=="
+          "hash": "BXz+ntUzpOw84GW7zv5jcA=="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.SCSVLine.html",
-          "hash": "galcCqUeubCvF+q9/rHIYQ=="
+          "hash": "nwiaHMRcsXo8zptD+E33yw=="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/PirateToolChest.SLocalizedText.html",
-          "hash": "Hd/fExrPp6YXRWSbUwKscQ=="
+          "hash": "hzpgBA9WeXgqWoSPpj3P0w=="
         }
       },
       "is_incremental": false,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "c7o/JoxrlJnPKPY3YVioAg=="
+          "hash": "RP2uxqAzPk1furVpFxFVLw=="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Addressables.html",
-          "hash": "ZVxAGpby7f8AXX29GRnNiQ=="
+          "hash": "4mOXMgu3UnXKlAEqpIwK9Q=="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CI_Unity_MRTK.html",
-          "hash": "9KSZMhgWazOWapzaQZrAJw=="
+          "hash": "Xculc6fR/xpxA1fHicToSw=="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/CIwithUnityorNetCoreApp.html",
-          "hash": "kkWQftCS3dCpscM9gz3naw=="
+          "hash": "bGD9bHtIGdCkPxV64F906w=="
         }
       },
       "is_incremental": false,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/PoCAlgoRecherche.html",
-          "hash": "dK2hIRViR2KgjVOXB6bq+A=="
+          "hash": "5MavfoA5O+mcXq28LniGwg=="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/UnitTestForMRTK.html",
-          "hash": "NGBK8WNsSLlyKOjPHRE3UQ=="
+          "hash": "kFjQDLSpRqr9zZlchJNuJA=="
         }
       },
       "is_incremental": false,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/docfxformultipleproject.html",
-          "hash": "4C0inpJ2SpiywXtM/kylnA=="
+          "hash": "06LXJRrARP2ub2l6wJ3buQ=="
         }
       },
       "is_incremental": false,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/documentationtype.html",
-          "hash": "SLOEY0ZoZL3uYMkF2DUPfw=="
+          "hash": "0Tg0+1m2shKX0PAnVwlLfQ=="
         }
       },
       "is_incremental": false,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/identificationSystem.html",
-          "hash": "JhKmL9D34szNBYfUw6xs3w=="
+          "hash": "dVY1tvkubA9ka8PgT6XEJQ=="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/localization.html",
-          "hash": "4bdtToxA1ygKZm0xCCeCYQ=="
+          "hash": "mukv0OWMMMbMYf0yLVn+QQ=="
         }
       },
       "is_incremental": false,
