@@ -28,23 +28,32 @@ env:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
-    #Checkout is very important at the start of every actions ! the container won't be able to access the project if you don't have a checkout
     steps:
     - name: Unity - Checkout
       uses: actions/checkout@v2
-    
-    #Make the action build your project
+
+    - uses: actions/cache@v2
+      with:
+        path: Library
+        key: Library-Activ8-poc-GitWorkflowsTests-Windows
+        restore-keys: |
+          Library-Activ8-poc-GitWorkflowsTests-Windows
+          Library-
     - name: Unity - Builder
       uses: webbertakken/unity-builder@v1.4
       with:
         unityVersion: 2019.3.15f1
         targetPlatform: StandaloneWindows
     
-    - name: Publish artifact
-      uses: actions/upload-artifact@v1
+    - name: Zip build folder
+      run: zip -r Build build/StandaloneWindows
+    
+    - uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        name: Build
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
+        prerelease: false
+        automatic_release_tag: "Latest"
+        files: Build.zip
 ```
 
 Available `targetPlatforms` :  
