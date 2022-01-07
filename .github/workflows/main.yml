@@ -14,6 +14,14 @@ jobs:
     - name: Unity - Checkout
       uses: actions/checkout@v2
 
+    - uses: actions/cache@v2
+      with:
+        path: Library
+        key: Library-Activ8-poc-GitWorkflowsTests-Windows
+        restore-keys: |
+          Library-Activ8-poc-GitWorkflowsTests-Windows
+          Library-
+
     - name: Unity - Builder
       uses: webbertakken/unity-builder@v1.4
       with:
