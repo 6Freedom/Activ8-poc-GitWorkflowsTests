@@ -28,11 +28,11 @@ jobs:
         unityVersion: 2019.3.15f1
         targetPlatform: StandaloneWindows
     
-    - name: Publish artifact
-      uses: actions/upload-artifact@v1
-      with:
-        name: Build
-        path: build
+#     - name: Publish artifact
+#       uses: actions/upload-artifact@v1
+#       with:
+#         name: Build
+#         path: build
     
     - uses: "marvinpinto/action-automatic-releases@latest"
       with:
