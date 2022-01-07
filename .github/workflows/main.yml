@@ -39,7 +39,7 @@ jobs:
         repo_token: "${{ secrets.GITHUB_TOKEN }}"
         prerelease: false
         automatic_release_tag: "Latest"
-        files: build/Build
+        files: build/StandaloneWindows
   
   tests:
     runs-on: ubuntu-latest
