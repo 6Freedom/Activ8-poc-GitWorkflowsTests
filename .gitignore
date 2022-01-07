@@ -27,6 +27,7 @@ Documentation/obj/
 
 # Visual Studio cache directory
 .vs/
+.idea/
 
 # Gradle cache directory
 .gradle/
