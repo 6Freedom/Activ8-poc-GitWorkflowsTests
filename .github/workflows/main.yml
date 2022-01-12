@@ -5,7 +5,7 @@ name: Generate Build
 on: 
   push:
     branches:
-      - main
+    - main
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
