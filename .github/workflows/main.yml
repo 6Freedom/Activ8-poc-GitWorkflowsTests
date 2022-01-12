@@ -1,25 +1,12 @@
-name: Generate Build
+name: Generate Build Android
 
-on: 
-  push:
-    branches:
-    - main
+
+on: [push]
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
 jobs:
-  merge-branch:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@master
-      - name: Merge main changes to main-android for android build
-        uses: devmasx/merge-branch@master
-        with:
-          type: now
-          target_branch: main-android
-          github_token: ${{ github.token }}
-
   build:
     runs-on: ubuntu-latest
     steps:
